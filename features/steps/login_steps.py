@@ -8,7 +8,7 @@ def step_user_on_login_page(context):
 
 @when('the user enters valid login credentials')
 def step_user_enters_login_details(context):
-    context.login_page.enter_email("eter@example.com")
+    context.login_page.enter_email("testuser@example.com")
     context.login_page.enter_password("Test@1234")
 
 @when('clicks the login button')

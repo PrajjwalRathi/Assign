@@ -8,9 +8,9 @@ def step_user_on_signup_page(context):
 
 @when('the user enters valid signup details')
 def step_user_enters_signup_details(context):
-    context.signup_page.enter_first_name("test")
-    context.signup_page.enter_last_name("tttser")
-    context.signup_page.enter_email("eter@example.com")
+    context.signup_page.enter_first_name("Test")
+    context.signup_page.enter_last_name("User")
+    context.signup_page.enter_email("testuser@example.com")
     context.signup_page.enter_password("Test@1234")
     context.signup_page.enter_confirm_password("Test@1234")
 
